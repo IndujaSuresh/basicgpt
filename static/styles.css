@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #3498db; /* Set background color for the entire page */
+}
+
+
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative; /* Add position relative for absolute positioning of voice button */
+}
+
+#chat-box {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    overflow-y: auto;
+    max-height: 300px;
+    flex: 1; /* Take remaining space */
+}
+
+#voice-button {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 24px;
+    color: #000000; /* Microphone color */
+    position: absolute; /* Position the voice button absolutely */
+    bottom: 10px; /* Adjust bottom position */
+    right: 20px; /* Adjust right position */
+}
+
+.title {
+
+    text-align: center; /* Center align the text */
+}
+#voice-button:hover {
+    color: #0056b3; /* Microphone color on hover */
+}
+
+.user-message {
+    color: #007bff; /* User's message color */
+}
+
+.chatbot-message {
+    color: #28a745; /* Chatbot's message color */
+}
+
+.right-align {
+    text-align: right;
+}
+
+.left-align {
+    text-align: left;
+}
+
+#voice-button:hover {
+    color: #0056b3; /* Microphone color on hover */
+}
+        button {
+            padding: 10px 20px;
+            font-size: 1rem;
+            background-color: #2980b9;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        button:hover {
+            background-color: #3498db;
+        }
